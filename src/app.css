@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lilita+One&family=Open+Sans:wght@500;800&family=Poppins:ital,wght@1,100&family=Quicksand:wght@700&family=REM:wght@800&family=Roboto&family=Secular+One&family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+   height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lavender;
+    
+}
+.main{
+    width: 450px;
+    height: 600px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    border-radius: 10px ;
+    box-shadow:4px 6px 2px  rgba(0, 0, 0, .7)
+}
+.nav_content{
+    width: 100%;
+    height: 60px;
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+input{
+    height: 32px;
+    background-color: #ebfffc;
+    padding:10px;
+    width: 55%;
+    border:none;
+    border-radius: 29px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:none
+}
+.center_content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.temp{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family:'Cabin', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.city_name{
+    text-align: center;
+    color:white;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family:'Open Sans', sans-serif ;
+}
+.footer_data{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    margin: 20px;
+
+}
+.humadity{
+    display: flex;
+    justify-content: start;
+    gap:10px
+}
+.weather_heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin:auto;
+    font-family: 'Roboto';
+}
+.weather_data{
+    margin-top: 0px;
+}
+.para{
+    font-size: 40px;
+ font-family:'Open Sans', sans-serif ;
+ text-align: center;
+ color:white
+}
